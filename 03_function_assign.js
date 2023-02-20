@@ -38,6 +38,7 @@ function addThreeValues(v1,v2,v3) {
    
     return sum;
     
+    
 }
 var add1=addThreeValues(10.23,600,40);
 console.log("addition is:",add1);
