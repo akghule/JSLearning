@@ -16,7 +16,7 @@ console.log("Typeof variable isMarried:",typeof isMarried);
 console.log("Typeof variable islazy:",typeof isLazy);
 var graduation;
 console.log("Value of  graduation variable is: ", graduation);
-console.log("typeOf graduation is: ", graduation);
+console.log("typeOf graduation is: ", typeof graduation);
 
 
 console.log("Swapping variables");

@@ -1,6 +1,7 @@
 var greet = "Good morning";
 console.log(typeof greet);
 console.log("Total number of char available in string:");
+console.log(greet.length);
 var greetLength=greet.length;
 console.log(greetLength);
 console.log("Find the char by index value");
