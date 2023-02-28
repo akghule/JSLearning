@@ -1,3 +1,34 @@
+console.log(`==================== step 1 =============`);
+function voteEligible(vote){
+    if (vote>=18 && vote<100 ) {
+        console.log(` Age is ${vote} Eligible for voting`);
+        
+    }
+    if (vote>0 && vote<18) {
+        console.log(` Age is ${vote} not eligible for voting`);
+        
+    }
+    
+    if(vote<=0 || vote>100 || (typeof vote!= "number")){
+        console.log(`Please provide the valid age - ${vote}`);
+   
+    }
+
+}
+voteEligible(45);
+voteEligible(17);
+voteEligible(8);
+voteEligible(20);
+voteEligible(-10);
+voteEligible(200);
+voteEligible(0);
+voteEligible(undefined);
+voteEligible(null);
+
+
+
+
+
 console.log(`============== step 2 ====================`);
 function gradeCalculation(marks){
     // if marks is 0 or less than 0 or greater than 100 or not in valid number format 
@@ -42,31 +73,4 @@ function gradeCalculation(marks){
     gradeCalculation(35);
 
 
-    console.log(`==================== step 1 =============`);
-    function voteEligible(vote){
-        if (vote>=18 && vote<100 ) {
-            console.log(` Age is ${vote} Eligible for voting`);
-            
-        }
-        if (vote>0 && vote<18) {
-            console.log(` Age is ${vote} not eligible for voting`);
-            
-        }
-        
-        if(vote<=0 || vote>100 || (typeof vote!= "number")){
-            console.log(`Please provide the valid age - ${vote}`);
-       
-        }
-
-    }
-    voteEligible(45);
-    voteEligible(17);
-    voteEligible(8);
-    voteEligible(20);
-    voteEligible(-10);
-    voteEligible(200);
-    voteEligible(0);
-    voteEligible(undefined);
-    voteEligible(null);
-    
-
+   
