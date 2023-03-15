@@ -54,7 +54,7 @@ const subArray = arrayOfNumbers.slice(2, 5);
 console.log(subArray);
 
 
-console.log("============================");
+ console.log("============================");
 // var arrayOfNumbers = [ 10, 20, 25, 15, 40, 45];
 console.log("==== splice(startIndex) === ");
 const splicedArray = arrayOfNumbers.splice(3);
